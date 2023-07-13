@@ -1,0 +1,75 @@
+{
+  "name": "ac-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@react-pdf/renderer": "^2.1.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.18.3",
+    "assert": "^2.0.0",
+    "axios": "^0.24.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "hover.css": "^2.3.2",
+    "i18next": "^21.6.10",
+    "moment": "^2.29.1",
+    "process": "^0.11.10",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.11",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.3",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "redux-logger": "^3.0.6",
+    "serve": "^13.0.2",
+    "smooth-scrollbar": "^8.7.3",
+    "smooth-scrollbar-react": "^2.3.0",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.4.2",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-redux": "^7.1.22",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/redux-logger": "^3.0.9",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13"
+  },
+  "scripts": {
+    "start": "serve ./build",
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
